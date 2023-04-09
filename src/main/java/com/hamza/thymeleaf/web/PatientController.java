@@ -49,7 +49,7 @@ public class PatientController {
 
 
  @GetMapping("/patients")
- @ResponseBody 
+ @ResponseBody
 public List<Patient> listPatient(){
 
 return patientRepository.findAll();}

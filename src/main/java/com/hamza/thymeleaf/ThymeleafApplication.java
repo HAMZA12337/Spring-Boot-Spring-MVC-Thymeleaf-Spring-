@@ -18,14 +18,14 @@ public class ThymeleafApplication {
 
 
 
-	@Bean
+//	@Bean
 	CommandLineRunner commandLineRunner(PatientRepository patientRepository){
 		return args->{
 
-    patientRepository.save(new Patient(null,"hamza",new Date(),false,12));
-			patientRepository.save(new Patient(null,"haytam",new Date(),true,12));
-			patientRepository.save(new Patient(null,"hssna",new Date(),false,12));
-			patientRepository.save(new Patient(null,"hatim",new Date(),true,12));
+    patientRepository.save(new Patient(null,"hamza",new Date(),false,102));
+			patientRepository.save(new Patient(null,"haytam",new Date(),true,1200));
+			patientRepository.save(new Patient(null,"hssna",new Date(),false,112));
+			patientRepository.save(new Patient(null,"hatim",new Date(),true,112));
 
 
 
